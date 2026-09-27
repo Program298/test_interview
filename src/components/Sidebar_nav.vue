@@ -14,7 +14,7 @@
 
                     <button type="button" @click="isDropdownOpenDash = !isDropdownOpenDash"
                         class="dash_drop flex flex-row justify-between items-center w-[208px] h-[48px] bg-white/75 px-[16px] py-[12px]   rounded-t-[12px]  rounded-b-[12px] mt-4 cursor-pointer"
-                        :class="{ 'rounded-b-none': isDropdownOpen }">
+                        :class="{ 'rounded-b-none': isDropdownOpenDash }">
 
                         <div class="dash_drop_area flex flex-row gap-2 ">
                             <img :src="dashboard_icon" class="dash_icon w-4.5 h-4.5 " />
@@ -46,7 +46,7 @@
                         </RouterLink>
                     </div>
                     <div type="button" @click="isDropdownOpenlist = !isDropdownOpenlist"
-                        class="list_drop flex flex-row justify-between items-center w-[208px] h-[48px] bg-white/75 px-[16px] py-[12px] gap-[8px] rounded-[12px] mt-4"
+                        class="list_drop flex flex-row justify-between items-center w-[208px] h-[48px] bg-white/75 px-[16px] py-[12px] gap-[8px] rounded-[12px] mt-4 cursor-pointer"
                         :class="{ 'rounded-b-none': isDropdownOpenlist }">
                         <div class="list_drop_area flex flex-row gap-2">
                             <img :src="list_icon" class="dash_icon w-4.5 h-4.5 " />
