@@ -1,0 +1,66 @@
+@import "tailwindcss";
+:root {
+ --color-bg: #FBFCFE;
+ --color-primary: #20409C;
+ --color-secondary: #22357D;
+  --font-family: 'Sarabun', sans-serif;
+
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--color-bg);
+    /* min-width: 100vw; */
+    min-height: 100vh;
+    font-family: var(--font-family);
+    background-color: #F5F7FF;
+
+}
+
+.circle-top-left{
+    position: absolute;
+    z-index: 1;
+    width: 471px;
+    height: 510px;
+    background-color: #F3F6FF;
+    border-radius: 0px 0px 200% 0px;
+}
+.circle-bottom-right{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    width: 307px;
+    height: 244px;
+    background-color: #F3F6FF;
+    border-radius: 150% 0px 0px 0px;
+}
+.login-form-container{
+    width: 922px;
+    height: 592px;
+}
+
+  .login-form-img{
+    background: linear-gradient(148.55deg, #201E91 9.45%, #22357D 78.04%);
+} 
+
+.circle-top-logo{
+    position: absolute;
+    z-index: 1;
+    width: 89px;
+    height: 89px;
+    background-color: #F3F6FF;
+    border-radius: 0 0 85px 85px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.img_login_bg{
+    width: 468;
+height: 412;
+
+opacity: 0.2;
+mix-blend-mode: Screen;
+
+}
